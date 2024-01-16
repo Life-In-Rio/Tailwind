@@ -4,10 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "tektur": "tektur",
-      }
+        tektur: "tektur",
+      },
+      fontSize: {
+        bymeg: "150px",
+      },
+      backgroundImage : {
+        kucing: 'url("../public/kucing.jpeg")',
+        fotbar: 'url("../public/fotbar.jpg")',
+      },
     },
   },
   plugins: [],
-}
-
+};

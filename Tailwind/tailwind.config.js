@@ -12,6 +12,7 @@ module.exports = {
       backgroundImage : {
         kucing: 'url("../public/kucing.jpeg")',
         fotbar: 'url("../public/fotbar.jpg")',
+        Gunung: 'url("../public/mount.jpg")',
       },
     },
   },

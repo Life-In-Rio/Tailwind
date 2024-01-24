@@ -7,7 +7,7 @@ module.exports = {
         tektur: "tektur",
       },
       fontSize: {
-        bymeg: "150px",
+        bymeg: "40px",
       },
       backgroundImage : {
         kucing: 'url("../public/kucing.jpeg")',

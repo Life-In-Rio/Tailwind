@@ -9,10 +9,10 @@ module.exports = {
       fontSize: {
         bymeg: "40px",
       },
-      backgroundImage : {
-        kucing: 'url("../public/kucing.jpeg")',
-        fotbar: 'url("../public/fotbar.jpg")',
-        Gunung: 'url("../public/mount.jpg")',
+      backgroundImage: {
+        kucing: 'url("../public/images/kucing.jpeg")',
+        fotbar: 'url("../public/images/fotbar.jpg")',
+        Gunung: 'url("../public/images/gunung wak.jpg")',
       },
     },
   },

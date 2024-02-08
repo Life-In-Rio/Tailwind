@@ -13,6 +13,7 @@ module.exports = {
         kucing: 'url("../public/images/kucing.jpeg")',
         fotbar: 'url("../public/images/fotbar.jpg")',
         Gunung: 'url("../public/images/gunung wak.jpg")',
+        Motor: 'url("../public/images/motorzx.jpg")',
       },
     },
   },

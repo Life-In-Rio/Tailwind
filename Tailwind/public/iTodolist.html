@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-300">
+    <div class="bg-white h-[400px] w-[700px] mx-auto mt-10 rounded">
+      <h1 class="font-semibold text-3xl text-center pt-7">TO-DO LIST</h1>
+      <div class="flex space-x-3 mt-6">
+        <input
+          type="text"
+          id="input1"
+          placeholder="Add new task.."
+          class="border-2 border-slate-500 rounded-md w-[360px] pl-4 h-7 ml-9"
+        />
+
+        <div class="border-2 border-slate-500 ml-5 rounded">
+          <label for="Waktu"></label>
+          <input id="waktu" type="date" />
+        </div>
+        <button
+          onclick="kirim()"
+          class="bg-slate-300 border border-black rounded-sm"
+        >
+          simpan
+        </button>
+      </div>
+      <div id="hasil" class="ml-10 mt-5">Added task:</div>
+    </div>
+  </body>
+  <script>
+    function kirim() {
+      var input1 = document.getElementById("input1").value;
+      console.log(input1);
+
+      var waktu = document.getElementById("waktu").value;
+      console.log(waktu);
+
+      let hasil = document.createElement("p");
+      hasil.innerText = `${input1} - ${waktu}` ;
+      document.getElementById("hasil").appendChild(hasil);
+     
+    }
+  </script>
+</html>
